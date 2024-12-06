@@ -1,8 +1,8 @@
 // Contenedor donde se agregarán las tarjetas
-const container = document.getElementById("product-container");
+const container = document.getElementById("product-container3");
 
 // Consumir la API con fetch
-fetch("http://localhost:3001/ropa")
+fetch("http://localhost:3000/niño")
   .then((response) => response.json())
   .then((products) => {
     // Limpiar el contenedor
@@ -12,7 +12,7 @@ fetch("http://localhost:3001/ropa")
     products.forEach((product) => {
       // Crear una columna para cada tarjeta
       const card = document.createElement("div");
-      card.classList.add("card", "col-4", "border-0"); // Añadimos "border-0" aquí para quitar los bordes.
+      card.classList.add("card", "col-md-4", "border-0", "mb-4"); // Añadimos "border-0" aquí para quitar los bordes.
 
       // Agregar contenido dinámico a la tarjeta
       card.innerHTML = `
