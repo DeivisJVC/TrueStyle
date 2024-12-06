@@ -13,37 +13,56 @@
 
 <body>
   <header>
-    <section class="text-Oswald pt-3 bg-black pb-2 mb-4">
+    <section class="text-Oswald pt-3 bg-black pb-2">
       <h4 class="text-center text-white">Envios Gratis por Compras Mayores a 150.000</h4>
     </section>
-    <section class="ms-5">
-      <h5>nueva coleccion</h5>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <section class="container-fluid d-flex justify-content mb-0 mt-4">
+      <h5 class="ms-5">nueva coleccion</h5>
+      <nav class="navbar navbar-expand-lg py-3 w-100">
+        <ul class="nav justify-content-end w-100  align-items-center">
           <li class="nav-item">
-            <a class="nav-link" href="login.php"><img src="/icon/User.svg" alt="logo_user"></a>
-            <a class="nav-link" href="login.php">Iniciar sesión</a>
-            <a class="nav-link" href=""><img src="/icon/Carrito.svg" alt="logo_carrito"></a>
-            <!--Agregar modal el cual muestra el carro-->
-            <a class="nav-link" href="">Carrito</a>
+            <a class="nav-link text-black" href="login.php">
+              <img src="/icon/User.svg" alt="User Icon">
+              iniciar sesion
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="">
+              <img src="/icon/Carrito.svg" alt="Carrito Icon">
+              Carrito
+            </a>
+            <!-- Modal o funcionalidad para mostrar el carrito puede añadirse aquí -->
           </li>
         </ul>
       </nav>
     </section>
-    <section class="container-sm d-flex justify-content-center">
+  </header>
+  <main>
+    <section class="text-center">
       <img src="/img/image 5.svg" alt="logo_true_style">
     </section>
-    <section class="containter-sm d-flex justify-content-center">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <ul class="navbar-nav">
-          <li class="nav-link">Mujer</li>
-          <li class="nav-link">Hombre</li>
-          <li class="nav-link">Niño</li>
-        </ul>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-center">
+      <ul class="nav justify-content-center w-100  align-items-center">
+        <li class="nav-item">
+          <a class="nav-link text-black" href="">Mujer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="">Hombre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="">Niño</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="text-center">
+      <div class="">
+        <img class="mb-5" src="/img/hombre.svg" alt="hombre" width="800px"><br>
+        <img class="mb-5" src="/img/Mujer.svg" alt="Mujer" width="800px"><br>
+        <img class=" mb-5" src="/img/Niña.svg" alt="Niña" width="800px"><br>
+      </div>
     </section>
-  </header>
-  <footer class="container-fluid bg-black ">
+  </main>
+  <footer class="container-fluid bg-black">
     <section class="container-sm container d-flex justify-content-center">
       <h3 class="text-white text-Oswald ">COLECCIONES</h3>
 
@@ -62,8 +81,6 @@
         </ul>
       </nav>
     </section>
-
-
     <section class="container-sm container d-flex justify-content-center">
       <h3 class="text-white text-Oswald">Ayuda</h3>
       <nav class="navbar navbar-expand-lg navbar-light ">
