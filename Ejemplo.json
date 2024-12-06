@@ -1,0 +1,26 @@
+{
+  "hombre": [
+    {
+      "nombre": "Camisa Hombre",
+      "descripcion": "Camisa casual para hombre.",
+      "imagen": "camisa_hombre.jpg"
+    },
+    {
+      "nombre": "Pantalones Hombre",
+      "descripcion": "Pantalones de mezclilla para hombre.",
+      "imagen": "pantalones_hombre.jpg"
+    }
+  ],
+  "mujer": [
+    {
+      "nombre": "Blusa Mujer",
+      "descripcion": "Blusa elegante para mujer.",
+      "imagen": "blusa_mujer.jpg"
+    },
+    {
+      "nombre": "Falda Mujer",
+      "descripcion": "Falda de verano para mujer.",
+      "imagen": "falda_mujer.jpg"
+    }
+  ]
+}
